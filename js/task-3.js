@@ -1,8 +1,6 @@
 "use strict";
-function sortByDescendingFriendCount(users) {
-
-}
-
+const sortByDescendingFriendCount = (users) =>
+  users.sort((hight, low) => low.friends.length - hight.friends.length);
 console.log(
   sortByDescendingFriendCount([
     {

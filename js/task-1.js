@@ -1,5 +1,6 @@
-"use srict";
-function getUserNames(users) {}
+"use strict";
+const getUserNames = users => users.map(user => user.name);
+
 
 console.log(
   getUserNames([
